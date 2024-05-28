@@ -1,0 +1,190 @@
+#
+# Tenga en cuenta que incluso un pequeño error de sintaxis aquí puede provocar fallos en la salida.
+#
+
+plantilla : " cv en línea "
+piel : " azul "
+
+# Informacion personal
+información básica :
+
+    # Tu nombre completo
+    nombre : Maria
+    apellido : Bottini
+
+    # Defínete en 4-5 palabras
+    lema : Me gusta salvar el mundo
+
+    # enfocar
+    enfoque : aprender mucho
+
+    # Tienes 1 párrafo para causar una gran impresión, resume tu carrera.
+    resumen : |
+      Resume aquí tu trayectoria profesional lorem ipsum dolor sit amet, consectetuer
+      élite adipiscente. Puede [descargar esta plantilla de currículum vitae/CV gratuita aquí]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Segundo párrafo si es necesario.
+    
+    # URL de tu foto de perfil
+    # Si no lo tienes como URL, puedes colocar la imagen dentro de /static/profile-images/ y el enlace generado será http://sep.breatheco.de/static/profile-images/<tu nombre de archivo >
+    avatar : https://randomuser.me/api/portraits/women/24.jpg
+
+    # Información del contacto
+    correo electrónico : padronalbany@gmail.com # opcional
+    teléfono : +58 412 3812426 # opcional
+    sitio web : asd.com # opcional
+    linkedin : alandoe # opcional
+
+    #
+    # ******** IMPORTANTE *******
+    # Este nombre de usuario de github se utilizará para generar la URL de su perfil público como esta: http://sep.breatheco.de/sharu725
+    github : amalia15
+
+    gorjeo : ' '  # opcional
+    desbordamiento de pila : # Número/Nombre de usuario, por ejemplo, 123456/alandoe
+
+    # idiomas que hablas, niveles incluidos: Nativo, Profesional
+    idiomas :
+      - modismo : inglés
+        nivel : Profesional
+
+      - modismo : español
+        nivel : Nativo
+
+    # Intereses o pasatiempos
+    intereses :
+      - artículo : Lectura
+
+      - artículo : Fitness
+
+      - artículo : Cocinar
+
+# Tu educación anterior
+educación :
+    - título : Maestría en Ingeniería Eléctrica
+      universidad : Universidad Metropolitana
+      # opcional
+      logotipo_universidad: datos:imagen/png;base64,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 M2NWcT/ 3wiy6fuhnyucnb6vk9napiiqdg610pevfaxgsecegqimgkhmmnu2xjstzgch7vqhszlkp8a2spf duknz5q/oexpi/zvpcmm8utmthg1vgr5voghfak6bywmb/zfdhczJfci5tnzZUovyfu/a0qh9odyqsrgcpwurk1xpt0hl033visif/pn+crngbxggxqdan4i7nv3AcngL Nj1jvmzr0nypa/ns4rpvxr2ri2gusjropgjesrliqwwzxam5tmgafvwe/t0k8yo+c1m5gf2mncvehiezyucgmj9shpoy6s/xc6br+cf4azdekmemntsz4olg38l/ Mrm1xahrxmofigDeJiltSyyMsdmnbqdukfoqtvl7dipn+lrch/ppsve22rk+0xesx0swlbxtozpjsxj4cbbbb1ipqdlkoi16ybslvj0vy7gncffmi/fqhwouu2nrftfvvv8oewj/oiTxkgeJ/oTXKGETXKDXKDXKGETXKGETXKGETXKGEM/OLI 0invy6i1ruly7vrlnkkiisz6flejdaniq4hfuilmokqJfbxdjligtybikvtavvvvwvzdvgmhuqm7q5hzow2rxwfmtr1p+jqot3i6ynwxyqtubstbfre 5govia55magxjlabezemcvesms9nj2ka3givgx4saUvuyoExqcbdohy3yjxlxtri+5muffgny+sc8q9hukcxfm5pfdycc/jjr3dldzwbwkd/dbno9dgffbma59mg5ka+ BGM8XCN+ F8JXRAFSJNRSGCD73VECRB3RHR5SNDPTQPS8AHYIH6Y1QD2RCEEI/CINJOJIBOOHPLEVQYBA0MRDSZ47AT940OUMF43DThei36+9LZVDLGTW/HM3H+ fpixfeupfyopi24qvk+pdgtwxfqx/pdvw7fp6plcojqef5k6xdjf6y8p2+lufilbi9innypd8vu5q4xwgjhw8aob713cm/3iz4iue96qfdlbqfryeakhx9ul +cm+ Arfkcu71sqoqzngsdgnhentw2n1xi9ydodq9zjkzsd4tmujeg+n90zv1sxfv2qn6h+4o4u/qcqr315ntg9alfhnv9ja9o5skbqJibStrdHcqz0HzAj1pfvysy IP9MPGE/O8OQN5CGRSYOLTSTTFCRFW8SWE9EJVWJVTUNSK84EUOMHQ007UYVMSWZKNXJCURA0UV1W3Z2JLQW0JSPSMHWOZNGC4GGLKS5JZBJMSQVSHWFGNIPHR5I1QYEZQYEPEVEVEVEL1CGL1CGL1CL1CGL1CGL1CL1CGL1CL1CGL1CGL1CGL1CGL1CGL1CGL1CGL1CGL1CGL1CGL1CGL1CGL1M xSQ1HDPZ4F3/DRT3V83KOMXHRNZ6ZUKTTCLWAF7CFPIOZZMSYKI36PNUOZT3BQK+JFWX Qx2ryzB25F6W18CF69EUOLB/7HFNlyRTX71BUULBPQGMYWJ7CUQTN3S41FI5S41S41S41S41S41S41S41 Znftbi3wbyqhqtdcz8s+7qyz7+rzvs1aljlps8vly8vly8vly8vly8vly8vly8vl6+n0n8b21mtj/ hi9skAAAAASSUVORK5CYII=  
+      tiempo : 2015 - 2020
+      detalles : |
+        Esperando el diploma. Con una tesis basada en la construcción de un dispositivo electrónico portátil que mide
+        Señales de biofeedback con Arduino y NodeJs.
+         -Becario de Excelencia Académica de la Universidad Metropolitana de Caracas
+          bajo la especialidad de Ingeniería Eléctrica.
+        -Asesor académico de la Escuela de Ingeniería Eléctrica durante el periodo 1819
+    - título : Licenciatura en Matemáticas Aplicadas
+      universidad : Universidad de Bristol
+      # opcional
+      logotipo_universitario : https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      tiempo : 2007 - 2011
+      detalles : |
+        Describe aquí tu estudio lorem ipsum dolor sit amet, consectetuer
+        élite adipiscente. Enean commodo ligula eget dolor. Masa Enea. Semen
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridículo mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Viñeta
+          - Viñeta
+# Tus experiencias laborales anteriores o voluntarias
+experiencias :
+    - rol : desarrollador principal
+      tiempo : 2015 - Presente
+      empresa : Startup Hubs, San Francisco
+      # opcional
+      logotipo_de_la empresa : https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      detalles : |
+        Describe aquí tu función lorem ipsum dolor sit amet, consectetuer
+        élite adipiscente. Enean commodo ligula eget dolor. Masa Enea.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultratricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat masa quis
+        enim. Hecho pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        arquitecto beatae vitae dicta sunt explicabo.
+          - Viñeta
+          - Viñeta
+    - rol : ingeniero de software senior
+      tiempo : 2014 - 2015
+      empresa : Google, Londres
+      # opcional
+      logotipo_de_la empresa : https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      detalles : |
+        Describe aquí tu función lorem ipsum dolor sit amet, consectetuer
+        élite adipiscente. Enean commodo ligula eget dolor. Masa Enea.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultratricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Viñeta
+          - Viñeta
+    - rol : desarrollador de interfaz de usuario
+      tiempo : 2012 - 2014
+      empresa : Amazon, Londres
+      # opcional
+      logotipo_de_la empresa : https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      detalles : |
+        Describe aquí tu función lorem ipsum dolor sit amet, consectetuer
+        élite adipiscente. Enean commodo ligula eget dolor. Masa Enea.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultratricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Viñeta
+          - Viñeta
+# Tu cartera de proyectos
+proyectos :
+    introducción : >
+      Puede enumerar sus proyectos paralelos o bibliotecas de código abierto en este
+      sección. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    asignaciones :
+      - título : Velocidad
+        # opcional
+        logotipo_proyecto : https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace : " #gancho "
+        Lema : " Una plantilla de sitio web responsivo diseñada para ayudar a las empresas emergentes a promover, comercializar y vender sus productos. "
+
+      - título : DevStudio
+        # opcional
+        logotipo_proyecto : https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace : " # "
+        Lema : " Una plantilla de sitio web responsiva diseñada para ayudar a los desarrolladores/diseñadores web a comercializar sus servicios " .
+
+      - título : Tempo
+        # opcional
+        logotipo_proyecto : https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace : " # "
+        Lema : " Una plantilla de sitio web responsivo diseñada para ayudar a las empresas emergentes a promocionar sus productos o servicios y atraer usuarios e inversores ".
+
+      - título : Átomo
+        # opcional
+        logotipo_proyecto : https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace : " # "
+        Lema : " Una solución integral de plantilla de sitio web para que las empresas emergentes y los desarrolladores comercialicen sus aplicaciones móviles " .
+
+      - título : Delta
+        # opcional
+        logotipo_proyecto : https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        enlace : " # "
+        Lema : " Un tema Bootstrap responsivo de una página diseñado para ayudar a los desarrolladores de aplicaciones a promocionar sus aplicaciones móviles "
+
+habilidades :
+    conjunto de herramientas :
+      - nombre : Python y Django
+        nivel : 98%
+
+      - nombre : Javascript y jQuery
+        nivel : 98%
+
+      - nombre : Angular
+        nivel : 98%
+
+      - nombre : HTML5 y CSS
+        nivel : 95%
+
+      - nombre : Ruby on Rails
+        nivel : 85%
+
+      - nombre : Bosquejo y Photoshop
+        nivel : 60%
